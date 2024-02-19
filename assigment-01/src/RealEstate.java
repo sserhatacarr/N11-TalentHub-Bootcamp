@@ -1,3 +1,10 @@
+/*-----------------------------------------------------------------------
+    PROJECT NAME    : N11 - Patika TalentHub Cohorts Homeworks
+    PACKAGE NAME    : entity
+    FILE            : House.java
+    AUTHOR          : Serhat Acar
+-----------------------------------------------------------------------*/
+
 import entity.House;
 import entity.SummerHouse;
 import entity.Villa;
@@ -96,29 +103,5 @@ public class RealEstate {
             }
         }
         return filteredSummerHouseList;
-    }
-
-    public static List<House> getHouseList() {
-        return houseList;
-    }
-
-    public static void setHouseList(List<House> houseList) {
-        RealEstate.houseList = houseList;
-    }
-
-    public static List<Villa> getVillaList() {
-        return villaList;
-    }
-
-    public static void setVillaList(List<Villa> villaList) {
-        RealEstate.villaList = villaList;
-    }
-
-    public static List<SummerHouse> getSummerHouseList() {
-        return summerHouseList;
-    }
-
-    public static void setSummerHouseList(List<SummerHouse> summerHouseList) {
-        RealEstate.summerHouseList = summerHouseList;
     }
 }

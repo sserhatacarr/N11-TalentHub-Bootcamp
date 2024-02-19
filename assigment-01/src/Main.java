@@ -1,3 +1,10 @@
+/*-----------------------------------------------------------------------
+    PROJECT NAME    : N11 - Patika TalentHub Cohorts Homeworks
+    PACKAGE NAME    : entity
+    FILE            : House.java
+    AUTHOR          : Serhat Acar
+-----------------------------------------------------------------------*/
+
 import entity.House;
 import entity.SummerHouse;
 import entity.Villa;
