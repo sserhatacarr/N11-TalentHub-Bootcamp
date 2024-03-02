@@ -1,8 +1,6 @@
 package entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -10,7 +8,8 @@ import java.util.List;
 /**
  * @author Serhat Acar
  */
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class Customer {
@@ -23,4 +22,14 @@ public class Customer {
     private LocalDate createdAt;
 
 
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", email='" + email + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", createdAt=" + createdAt +
+                '}';
+    }
 }
