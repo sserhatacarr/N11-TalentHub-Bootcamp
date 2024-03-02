@@ -8,11 +8,11 @@
 package entity;
 
 public class House extends Accommodation {
-    private String owner ;
+    private String owner;
 
     public House() {
         super();
-        this.owner="";
+        this.owner = "";
     }
 
     public House(double price, double squareMeter, int roomCount, int livingRoomCount) {
@@ -27,6 +27,6 @@ public class House extends Accommodation {
 
     @Override
     public String toString() {
-      return super.toString() + "\nOwner: " + owner;
+        return super.toString();
     }
 }

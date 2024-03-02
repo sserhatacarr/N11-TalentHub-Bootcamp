@@ -1,4 +1,4 @@
-/*-----------------------------------------------------------------------
+package service;/*-----------------------------------------------------------------------
     PROJECT NAME    : N11 - Patika TalentHub Cohorts Homeworks
     PACKAGE NAME    : entity
     FILE            : House.java
@@ -12,7 +12,7 @@ import entity.Villa;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RealEstate {
+public class RealEstateService {
     public static List<House> houseList = new ArrayList<>();
     public static List<Villa> villaList = new ArrayList<>();
     public static List<SummerHouse> summerHouseList = new ArrayList<>();
