@@ -1,4 +1,4 @@
-# Invoice Management System
+# Customer Management System
 
 This project provides a simple customer management system with features for adding, displaying, and searching customers, as well as handling bills and performing computations on them.
 
